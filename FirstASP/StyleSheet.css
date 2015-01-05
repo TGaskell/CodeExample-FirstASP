@@ -1,0 +1,48 @@
+﻿body 
+{
+    background-color: #9999CC;
+    height:100%;
+}
+
+html,form 
+{
+	height: 100%;
+}
+
+#mastermenu
+{
+    margin-left:auto;
+    margin-right:auto;
+    width:800px;
+    background-color:#6600FF;
+    position:relative; 
+}
+
+#sitemap, #login
+{
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    width:800px;
+    background-color:white;
+    position:relative; 
+} 
+
+#content
+{
+    margin-left:auto;
+    margin-right:auto;
+    width:800px;
+    background-color:White;
+    position:relative; 
+    height:100%; 
+}
+
+#banner, #footer
+{
+    margin-left:auto;
+    margin-right:auto;
+    width:800px;
+    position:relative; 
+}

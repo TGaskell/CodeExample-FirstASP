@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+
+  <siteMapNode url="~/Default.aspx" title="Home" description="Home page." >
+
+    <siteMapNode url="~/Products.aspx" title="Products" description="Products page." >
+    </siteMapNode>
+        
+    <siteMapNode url="~/Categories.aspx" title="Categories" description="Categories page." >
+    </siteMapNode>
+    
+    <siteMapNode url="~/Search.aspx" title="Search" description="Search page." >
+    </siteMapNode>  
+  
+    <siteMapNode url="~/Cart.aspx" title="View Cart" description="View Your Shopping Cart." >
+    </siteMapNode>   
+      
+    <siteMapNode url="~/About.aspx" title="About" description="About page." >
+    </siteMapNode> 
+    
+    <siteMapNode url="~/Contact.aspx" title="Contact" description="Contact page." >
+    </siteMapNode>  
+    
+    <siteMapNode url="~/Help.aspx" title="Help" description="Help page." >
+    </siteMapNode> 
+    
+    <siteMapNode url="" title="My Account" description="" >
+          <siteMapNode url="~/User.aspx" title="My Profile" description="User Profile page." >
+          </siteMapNode>
+          <siteMapNode url="~/Orders.aspx" title="My Orders" description="User Orders page." >
+          </siteMapNode>
+          <siteMapNode url="~/ForgotPassword.aspx" title="Change Password" description="Change Pasword" >
+          </siteMapNode>
+    </siteMapNode>
+
+    <siteMapNode url="" title="Admin" description="" >
+          <siteMapNode url="~/Users.aspx" title="Manage Users" description="Users page." >
+          </siteMapNode>
+          <siteMapNode url="~/Orders.aspx?action=manage" title="Manage Orders" description="Orders page." >
+          </siteMapNode>
+          <siteMapNode url="~/Products.aspx?action=manage" title="Manage Products" description="Products page." >
+          </siteMapNode>
+          <siteMapNode url="~/Categories.aspx?action=manage" title="Manage Categories" description="Categories page." >
+          </siteMapNode>
+    </siteMapNode>
+    
+  </siteMapNode> 
+</siteMap>
